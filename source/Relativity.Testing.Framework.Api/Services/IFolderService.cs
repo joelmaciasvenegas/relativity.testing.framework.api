@@ -97,7 +97,7 @@ namespace Relativity.Testing.Framework.Api.Services
 		/// {
 		/// 	Condition = "'Name' == 'Test'"
 		/// };
-		/// Folder folderWithTestName = _folderService.Get(workspaceArtifactId, query, 1).Results.FirstOrDefault();
+		/// Folder folderWithTestName = _folderService.Query(workspaceArtifactId, query, 1).Results.FirstOrDefault();
 		/// </code>
 		/// </example>
 		/// <example> This example shows how to query for all folders in the workspace.
